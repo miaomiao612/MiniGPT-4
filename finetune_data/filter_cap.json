@@ -3,7 +3,7 @@
 
       {
          "image_id":"1",
-         "caption":"The image shows a residential street on a sunny day. The road is lined with trees and there are several power lines running along the top of the image. The sky is clear and there are no clouds in sight. There are several houses on the right of the road. There are no people or vehicles on the street. The weather is sunny and the season is spring. The lighting is bright and the atmosphere is peaceful."
+         "caption":"The image shows a residential street on a sunny day. The street is lined with trees and has a few power lines running along the top. There are several houses on the left side of the street, with one having a white picket fence and another with a green lawn. On the right side of the street, there is a small park with trees and a playground. The sky is clear and blue. There are no people or vehicles on the street or in the park. The atmosphere is quiet and peaceful."
       },
       {
          "image_id":"2",
@@ -51,7 +51,7 @@
       },
       {
          "image_id":"13",
-         "caption":"The image shows a snowy street at night with houses on the side. The street is empty and there is a red car on it. The houses are well lit and there are some streetlights on the road. The sky is white and the weather is cold and snowy. The season is winter."
+         "caption":"The image shows a snowy street at night with a few houses on the sides. The houses are well-lit by streetlights and have red and purple lights hanging from their windows. The snow on the road reflects the light from the lights, creating a cozy and welcoming atmosphere. There are no people in sight on the street. The weather is snowy and the lighting is dim. The overall feeling of the image is peaceful and serene."
       },
       {
          "image_id":"14",
@@ -139,7 +139,7 @@
       },
       {
          "image_id":"35",
-         "caption":"This image shows a grassy field with trees in the background. The sky is cloudy and there is a road running through the field. There are no people or buildings in the image. The lighting is overcast, giving the scene a gloomy atmosphere."
+         "caption":"This image shows a grassy field with trees in the background. The sky is cloudy and there is a road running through the field. There are no people or activities visible in the image. The lighting is overcast. The atmosphere is peaceful and serene."
       },
       {
          "image_id":"36",
@@ -203,7 +203,7 @@
       },
       {
          "image_id":"51",
-         "caption":"The image shows a street with a bridge over it. The bridge is made of concrete and has a metal railing on either side. There are cars parked on the side of the street, and there are people walking on the sidewalk. The sky is cloudy. The atmosphere is calm."
+         "caption":"The image shows a street with a bridge over it. The bridge is made of concrete and has a metal railing on either side. There are cars parked on the side of the street, there are no people walking on the sidewalk. The sky is cloudy. The atmosphere is quiet and subdued."
       },
       {
          "image_id":"52",
@@ -340,6 +340,26 @@
       {
          "image_id":"85",
          "caption":"The image shows a group of people riding on the back of a motorcycle on a road with palm trees lining the sides. The sky is clear and blue with clouds in the distance. The road is well-maintained. The atmosphere is sunny and pleasant."
+      },
+      {
+         "image_id":"86",
+         "caption":"The image shows a busy city street with tall buildings on either side. The sunset is in the background. There are several people walking on the sidewalk, some of them crossing the street at the intersection. The buildings in the image are modern and sleek, with glass facades and tall windows. The street is well-lit at night, with streetlights and building lights illuminating the area. The atmosphere is bustling and energetic. The weather is clear and sunny."
+      },
+      {
+         "image_id":"87",
+         "caption":"The image shows a parking lot with several tall buildings in the background. There are several cars parked in the lot, and the sun is shining brightly in the sky, with the buildings casting shadows on the ground. The weather is clear and sunny, and the atmosphere is bright. The buildings appear to be modern and sleek, with glass windows and metal facades. There are no people in the image. The lighting is well-lit, with the sun casting a bright glow on the scene."
+      },
+      {
+         "image_id":"88",
+         "caption":"The image shows a church with a tall spire on the side of a street. The church is located on the side of a street with a few trees blooming on the sidewalk. The weather is cloudy and there is rain on the ground. The road is made of concrete and there are no cars driving on it. The lighting is dim and the atmosphere is peaceful."
+      },
+      {
+         "image_id":"89",
+         "caption":"The image shows two people standing on a city street, holding umbrellas, under an overcast sky. The street is busy with cars and people walking. The buildings on either side of the street are tall and have lights on in the windows. The lighting is dim, casting a wet and misty atmosphere on the scene. The cityscape is urban, with skyscrapers and concrete roads."
+      },
+      {
+         "image_id":"90",
+         "caption":"This image shows a street with several parked cars on the side of a residential road. The houses behind the cars are made of red brick and have white windows and doors. There are some trees and greenery on the side of the road. The weather appears to be sunny and there are no apparent activities or people in the image. The atmosphere is quiet and peaceful."
       }
 
 ]
