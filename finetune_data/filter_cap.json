@@ -1,5 +1,5 @@
 {
-    "annotations":[
+      "annotations":[
 
       {
          "image_id":"1",
@@ -227,7 +227,7 @@
       },
       {
          "image_id":"57",
-         "caption":"This image shows a street with tall buildings on either side. There is a crosswalk in the middle of the street. The left building is made of red bricks and the right one is made of white bricks. There are no cars or other vehicles in the image. The weather appears to be sunny and there is no rain or other precipitation. The atmosphere is quiet and peaceful."
+         "caption":"This image shows a street with tall buildings on either side. There is a crosswalk in the middle of the street. The left building is made of red bricks and the right one is made of white bricks. There are cars or other vehicles in the image. The weather appears to be sunny and there is no rain or other precipitation. The atmosphere is quiet and peaceful."
       },
       {
          "image_id":"58",
@@ -283,7 +283,7 @@
       },
       {
          "image_id":"71",
-         "caption":"The image shows a city street at night with tall buildings on either side. The street is empty. The buildings are lit up with neon lights. The weather is clear and the sky is dark."
+         "caption":"The image shows a city street at night with tall buildings on either side. There are no vehicles driving on the street, but there are two people waiting for a bus at the bus stop. The buildings are lit up with neon lights. The weather is clear and the sky is dark."
       },
       {
          "image_id":"72",
