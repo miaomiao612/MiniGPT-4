@@ -1,10 +1,10 @@
-import os
-cache = "/src/weights/"
-os.environ["TORCH_HOME"] = "/src/weights/"
-os.environ["HF_HOME"] = "/src/weights/"
-os.environ["HUGGINGFACE_HUB_CACHE"] = "/src/weights/"
-if not os.path.exists(cache):
-    os.makedirs(cache)
+# import os
+# cache = "/src/weights/"
+# os.environ["TORCH_HOME"] = "/src/weights/"
+# os.environ["HF_HOME"] = "/src/weights/"
+# os.environ["HUGGINGFACE_HUB_CACHE"] = "/src/weights/"
+# if not os.path.exists(cache):
+#     os.makedirs(cache)
 
 # Do not import torch before setting the environment variables
 
