@@ -13,12 +13,12 @@ from PIL import Image
 from minigpt4.conversation.conversation import CONV_VISION, Chat
 from minigpt4.common.registry import registry
 from minigpt4.common.config import Config
-from cog import BasePredictor, Input, Path
+#from cog import BasePredictor, Input, Path
 
 
+class test():
 
-class Predictor(BasePredictor):
-    def setup(self):
+    def __init__(self):
         # Copied as-is from demo.py
         parser = argparse.ArgumentParser(description="Demo")
         parser.add_argument("--cfg-path", required=True,
@@ -47,36 +47,17 @@ class Predictor(BasePredictor):
         self.vis_processor = registry.get_processor_class(
             vis_processor_cfg.name).from_config(vis_processor_cfg)
         self.chat = Chat(self.model, self.vis_processor,
-                         device='cuda:{}'.format(args.gpu_id))
+                            device='cuda:{}'.format(args.gpu_id))
 
         self.prefix = "hello"
 
     def predict(
         self,
-        image: Path = Input(
-            description="Input image to discuss"),
-        message: str = Input(
-            description="Message to send to MiniGPT-4.",
-            default="Please describe the image.",
-        ),
-        num_beams: int = Input(
-            description="beam search numbers. More beams require more VRAM.",
-            ge=1,
-            le=10,
-            default=1,
-        ),
-        temperature: float = Input(
-            description="Adjusts randomness of outputs, greater than 1 is random and 0 is deterministic, 0.75 is a good starting value.",
-            ge=0.1,
-            le=2.0,
-            default=0.75,
-        ),
-        max_new_tokens: int = Input(
-            description="Maximum number of tokens to generate. A word is generally 2-3 tokens (minimum: 1)",
-            ge=1,
-            default=500,
-        ),
-    ) -> str:
+        image="hopper.jpg",
+        message = "text info",
+        num_beams = 1,
+        temperature = 0.75,
+        max_new_tokens = 500) -> str:
         """Run a single prediction on the model"""
         chat = self.chat
         raw_image = Image.open(image).convert("RGB")
@@ -95,3 +76,5 @@ class Predictor(BasePredictor):
 
         return llm_message
 
+t = test()
+t.predict()
