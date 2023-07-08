@@ -94,3 +94,4 @@ class Predictor(BasePredictor):
         )[0]
 
         return llm_message
+
