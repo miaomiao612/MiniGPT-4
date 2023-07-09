@@ -76,5 +76,5 @@ class test():
 
         return llm_message
 
-t = test()
-t.predict()
+# t = test()
+# t.predict()
